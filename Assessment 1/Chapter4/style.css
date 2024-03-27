@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header styles */
+header {
+  background-color:#2C0464;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center; /* Center align the contents */
+}
+
+.logo img {
+  max-width: 200px; /* Adjust the width of the logo */
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Center the logo horizontally */
+}
+
+nav {
+  background-color:#2C0464;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center; /* Center align the navigation */
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Main content styles */
+main {
+  padding: 20px 0;
+}
+
+main h2 {
+  font-size: 1.5em;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  width: calc(70% - 10px); /* width of the content */
+}
+
+.content2 {
+  background-color: #02448E;
+  width: calc(30% - 10px); /* width of the content2*/
+}
+
+
+.content p,
+.content img {
+  margin-bottom: 20px; /*space between paragraphs and images */
+}

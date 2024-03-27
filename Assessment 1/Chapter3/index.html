@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Gallery</title>
+<style>
+  /* using internal CSS styles */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  .image-container {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    filter: grayscale(50%); /* Applies grayscale filter by default */
+    transition: filter 0.3s ease; /* Adds transition effect to image filters */
+  }
+  img:hover {
+    filter: none; /* Removes filter on hover */
+  }
+</style>
+</head>
+<body>
+  <!-- Image containers with images and copyright information -->
+  <div class="image-container">
+    <img src="car.jpeg" alt="Electric Vehicles" width="300" height="200" title="Electric Vehicles driving on a road">
+    <p>Copyright: blah blah 123</p>
+  </div>
+  <div class="image-container">
+    <img src="skyline.jpeg" alt="Futuristic City Skyline" width="300" height="200" title="Futuristic City Skyline of Myanmar in Year 3000">
+    <p>Copyright: blah blah 234</p>
+  </div>
+  <div class="image-container">
+    <img src="night.jpeg" alt="Prison Room at Night" width="300" height="200" title="View from a prison room at night">
+    <p>Copyright: blah blah 345</p>
+  </div>
+</body>
+</html>
